@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Keania+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="score-container">
+        <h3>HOME</h3>
+        <p id="home">0</p>
+        <div class="btn-container">
+          <button onclick="add1()">+1</button>
+          <button onclick="add2()">+2</button>
+          <button onclick="add3()">+3</button>
+        </div>
+      </div>
+      <div class="score-container">
+        <h3>GUEST</h3>
+        <p id="guest">0</p>
+        <div class="btn-container">
+          <button onclick="addG1()">+1</button>
+          <button onclick="addG2()">+2</button>
+          <button onclick="addG3()">+3</button>
+        </div>
+      </div>
+      <div id="reset">
+        <button onclick="reset()">Reset</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

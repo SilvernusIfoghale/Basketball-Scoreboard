@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  max-width: 60%;
+  padding: 5%;
+  text-align: center;
+  background-color: rgb(11, 11, 66);
+  border-radius: 5%;
+  color: #fff;
+  position: relative;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-size: 4.5rem;
+  font-family: "Keania One", sans-serif;
+  color: #ff6363;
+  background-color: rgb(33, 28, 28);
+  border-radius: 5%;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+button {
+  font-family: "Keania One", sans-serif;
+  font-size: 1.3rem;
+  padding: 0.4rem;
+  margin-right: 0.9rem;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  color: #fff;
+  background-color: transparent;
+}
+button:hover {
+  color: #ff6363;
+  cursor: pointer;
+  border: 2px solid #ff6363;
+}
+
+#reset {
+  position: absolute;
+  bottom: 20px;
+}
